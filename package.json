@@ -1,0 +1,22 @@
+{
+  "name": "sprngr.com",
+  "version": "0.0.1",
+  "description": "Eleventy based static site",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sprngr/sprngr.com.git"
+  },
+  "author": "sprngr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sprngr/sprngr.com/issues"
+  },
+  "homepage": "https://github.com/sprngr/sprngr.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.1"
+  }
+}
