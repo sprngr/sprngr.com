@@ -1,8 +1,8 @@
 {
   "name": "sprngr.com",
   "version": "0.0.1",
-  "description": "Eleventy based static site",
-  "main": "index.js",
+  "description": "The home of @sprngr on the web",
+  "private": true,
   "scripts": {
     "serve": "npx eleventy --serve"
   },
@@ -10,13 +10,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/sprngr/sprngr.com.git"
   },
-  "author": "sprngr",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sprngr/sprngr.com/issues"
-  },
-  "homepage": "https://github.com/sprngr/sprngr.com#readme",
+  "author": "Michael Springer",
+  "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.7.1"
+    "@11ty/eleventy": "^0.8.3"
   }
 }
