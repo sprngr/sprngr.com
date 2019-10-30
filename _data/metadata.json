@@ -1,0 +1,16 @@
+{
+  "title": "sprngr",
+  "url": "https://sprngr.com/",
+  "description": "Michael Springer - Maker",
+  "feed": {
+    "subtitle": "Michael Springer - Maker",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://sprngr.com/feed/feed.xml",
+    "id": "https://sprngr.com/"
+  },
+  "author": {
+    "name": "Michael Springer",
+    "email": "mike@sprngr.com"
+  }
+}
