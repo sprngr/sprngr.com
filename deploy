@@ -1,6 +1,6 @@
 #!/bin/bash
 
 # Push up new code to remote server
-rsync -e "ssh -o 'StrictHostKeyChecking no'" -a --delete ./_site/ $REMOTE_USER@$REMOTE_ADDRESS:/var/docker/_sites/sprngr.com/public
+rsync -e "ssh -o 'StrictHostKeyChecking no'" -a --delete ./dist/ $REMOTE_USER@$REMOTE_ADDRESS:/var/docker/_sites/sprngr.com/public
 # Kick off new code by scaling service up and then back down because static
 ssh -o 'StrictHostKeyChecking no' -t $REMOTE_USER@$REMOTE_ADDRESS 'docker service scale urist-mcserver_sprngr=2 && docker service scale urist-mcserver_sprngr=1'
