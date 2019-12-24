@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
+:root {
+  --black: #1C1D1E;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  counter-reset: kb-section;
+  background: #f9f9f9;
+  background-image: linear-gradient(rgba(43, 43, 38, 0.05) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(43, 43, 38, 0.05) 1px, transparent 1px);
+	background-size: 10px 10px, 10px 10px, 2px 2px, 2px 2px;
+  background-position: 0 0, center;
+}
+
+/* Layout */
+.kb-container {
+  background: #fff;
+  margin: 0 auto;
+  padding: 1rem;
+  height: 100vh;
+  width: 90%;
+  box-shadow: 0px 5px 20px rgba(128, 128, 128, 0.25);
+}
+
+.kb-footer {
+    background: var(--black);
+    box-shadow: 0px 5px 20px rgba(128, 128, 128, 0.25);
+    margin: 0 auto;
+    width: 90%;
+    padding: 1rem;
+}
+
+/* Modules */
+/* Kitbash Nav */
+
+.kb-nav {
+  padding: 1rem;
+  font-family: "Roboto Mono", monospace;
+  background: var(--black);
+  color: #fff;
+  display:flex;
+  text-align: center;
+  flex-direction: row;
+}
+
+.kb-nav a {
+  color: white;
+  border: 1px solid transparent;
+  text-decoration:none;
+  padding: 0.5rem 1rem;
+  flex-grow: 1;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+.kb-nav a:hover {
+  color: white;
+  border: 1px solid #fff;
+}
+
+/* Kitbash Header */
+.kb-header {
+  background: #fff;
+  color: var(--black);
+  padding: 3rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.kb-header .kb-header-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kb-header .kb-header-heading-title {
+  text-transform: uppercase;
+  border: 1rem solid var(--black);
+  padding: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 auto 1rem;
+}
+
+.kb-header .kb-header-heading-subtitle {
+  text-transform: capitalize;
+}
+
+/* Kitbash Section */
+
+.kb-section .kb-section-header {
+  text-transform: uppercase;
+  background: var(--black);
+  color: #fff;
+  margin: 0;
+  padding: 0.5em;
+}
+
+/* Kitbash Section Entry */
+
+.kb-section-entry-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kb-section-entry {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.kb-section-entry p {
+  padding: 0 1em;
+}
+
+.kb-section-entry:not(.primary) {
+  border-top: 2px solid var(--black);
+}
+
+.kb-section-entry.primary {
+  min-height: 10em;
+}
+
+.kb-section-entry:nth-child(1) {
+  flex: initial;
+}
+
+.kb-section-entry-title::before {
+  padding: 0.25em 0.5em;
+  font-family: "Roboto Mono", monospace;
+  counter-increment: kb-section;
+  content: counter(kb-section);
+
+  display: inline-block;
+
+  background: var(--black);
+  color: #fff;
+  margin-right: 10px;
+}
+
+.kb-section-entry-title {
+  margin-top: 0;
+}
+
+/* Media Queries */
+/* TODO: Fix breakpoints :| */
+
+@media (min-width: 20rem) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .kb-section-entry {
+    flex: initial;
+  }
+}
+
+/* wat */
+@media (max-width: 40rem) {
+  .kb-nav {
+   flex-direction: column;
+  }
+}
+
+@media (min-width: 50rem) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .kb-section-entry {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 80rem) { /* hi-res laptops and desktops */
+  .kb-section-entry {
+    flex-basis: 33.3333%;
+  }
+}

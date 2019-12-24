@@ -1,18 +1,33 @@
 {
   "name": "sprngr.com",
-  "version": "0.0.1",
-  "description": "The home of @sprngr on the web",
-  "private": true,
+  "version": "0.1.0",
+  "description": "The home of Michael Springer on the web.",
   "scripts": {
-    "serve": "npx eleventy --serve"
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy",
+    "deploy": "./deploy"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sprngr/sprngr.com.git"
+    "url": "git://github.com/sprngr/sprngr.com.git"
   },
-  "author": "Michael Springer",
+  "author": {
+    "name": "Michael Springer",
+    "email": "mike@sprngr.com",
+    "url": "https://sprngr.com/"
+  },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sprngr/sprngr.com/issues"
+  },
+  "homepage": "https://github.com/sprngr/sprngr.com#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3"
+    "@11ty/eleventy": "^0.9.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
+    "luxon": "^1.12.0",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.0.2"
   }
 }
