@@ -23,5 +23,5 @@ jobs:
           REMOTE_ADDRESS: ${{ secrets.REMOTE_ADDRESS }}
         run: |
           eval "$(ssh-agent -s)"
-          cat "${DEPLOY_KEY}" | ssh-add -
+          cat -- "${DEPLOY_KEY}" | ssh-add -
           npm run deploy
