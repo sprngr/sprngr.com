@@ -10,10 +10,11 @@
 
 body {
   font-size: 16px;
+  font-family: sans-serif;
   counter-reset: kb-section;
   background: #f9f9f9;
   background-image: linear-gradient(rgba(43, 43, 38, 0.05) 1px, transparent 1px),
-		linear-gradient(90deg, rgba(43, 43, 38, 0.05) 1px, transparent 1px);
+    linear-gradient(90deg, rgba(43, 43, 38, 0.05) 1px, transparent 1px);
 	background-size: 10px 10px, 10px 10px, 2px 2px, 2px 2px;
   background-position: 0 0, center;
 }
@@ -148,7 +149,7 @@ body {
 }
 
 /* Media Queries */
-/* TODO: Fix breakpoints :| */
+/* TODO: Fix breakpoints */
 
 @media (min-width: 20rem) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   .kb-section-entry {
