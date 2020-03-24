@@ -1,9 +1,9 @@
   <section class="kb-section">
     <h1 class="kb-section-header">{{postslistHeader}}</h1>
     {% for post in postslist | reverse %}
+
     <div class="kb-section-entry-container">
-    {{postslistCounter}} {{postlist.length}}
-      <div class="kb-section-entry{% if postslistCounter == postslist.length %} primary{% endif %}">
+      <div class="kb-section-entry{% if collections.posts.indexOf(post) == postslist.length %} primary{% endif %}">
         <h2 class="kb-section-entry-title">{{ post.data.title }}</h2>
       </div>
     </div>

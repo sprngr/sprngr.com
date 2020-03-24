@@ -6,7 +6,6 @@ eleventyNavigation:
 ---
 
 {% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
 {% set postslistHeader = "Latest Postings" %}
 {% include "postslist.njk" %}
 
