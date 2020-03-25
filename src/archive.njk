@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 2
 ---
 
-<h1>Posts</h1>
-
 {% set postslist = collections.posts %}
+{% set postsPrimary = postslist.length - 1 %}
+{% set postslistHeader = "Posts Archive" %}
 {% include "postslist.njk" %}

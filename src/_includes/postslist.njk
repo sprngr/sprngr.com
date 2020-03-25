@@ -3,7 +3,7 @@
     {% for post in postslist | reverse %}
 
     <div class="kb-section-entry-container">
-      <div class="kb-section-entry{% if collections.posts.indexOf(post) == postslist.length %} primary{% endif %}">
+      <div class="kb-section-entry{% if collections.posts.indexOf(post) == postsPrimary %} primary{% endif %}">
         <a href="{{ post.url | url }}"><h2 class="kb-section-entry-title">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</h2></a>
           <p><time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></p>
           <p>{{ post.data.description }}</p>

@@ -6,7 +6,8 @@ eleventyNavigation:
 ---
 
 {% set postslist = collections.posts | head(-3) %}
-{% set postslistHeader = "Latest Postings" %}
+{% set postslistHeader = "Latest Posts" %}
+{% set postsPrimary = postslist.length %}
 {% include "postslist.njk" %}
 
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">the posts archive</a>.</p>
