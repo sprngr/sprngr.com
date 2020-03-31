@@ -125,6 +125,7 @@ body {
 
 .kb-section-entry.primary {
   min-height: 10em;
+  width: 100%;
 }
 
 .kb-section-entry:nth-child(1) {
