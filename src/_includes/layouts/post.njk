@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+<section class="kb-section">
+    <h1 class="kb-section-header">{{ title }}</h1>
+    <div class="kb-section-entry-container">
+        <div class="kb-section-entry primary">
+            {{ content | safe }}
+        </div>
+    </div>
+</section>
