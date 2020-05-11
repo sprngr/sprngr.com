@@ -32,6 +32,18 @@ One of my favorite events in the game is the SOW Joan Stalk Market. It has been 
 ![Daisy Mae from Animal Crossing](/img/essay/armchair-dev-acnh-economy_stalnks.png)
 <sub>Image Source: [Know Your Meme - Stonks](https://knowyourmeme.com/photos/1809391-stonks)</sub>
 
+TODO
+
+More on how turnips have a system to combat time travel.
+
+Add tweet about market collapse when online servers went down on a saturday.
+
+## The Villager Market
+
+TODO
+
+Cover amiibo card market price spikes before and during game launch after info about selecting villagers was made known.
+
 ## Economic Oddities
 
 Island economies are isolated from one another, but the value of the bell has inflated drastically. So much so we are seeing prices become outlandish compared to what they should be.
@@ -45,11 +57,13 @@ On May 7, 2020 the value of the item on the website was selling at an average pr
 
 At the time of writing May 10, 2020, the price is now sitting at an average of 13,250 Bells. I was not tracking previous price trends for this item, but within the span of 4 days it has jumped 8,250 Bells, now at 5.3x the original price of the item in game. This of course could be caused by outliers at the far end of the bell curve causing the average price of items to skyrocket, or it could be this demographic of players are now targeting those fresh off the seaplane and looking to get some later game (though this takes a short period of time to acquire, relatively speaking to the game) earlier. Luckily the price of the DIY is still where it should be, given that too is also directly purchasable from Nook's Cranny.
 
-## The Villager Market
+## Combating Hyperinflation
 
-## Countermeasures enacted to fight inflation
+TODO
 
-## Potential ways to mitigate hyperinflation
+Nintendo has imposed a change to the in game bank's interest rate, effectively capping it - preventing players from time travelling for maximum gain.
+
+My proposal to discourage time travel would be to impose interest on the loans given out by Tom Nook for house repayments. A typical player will pay it back relatively quickly, whereas the time traveler could likely blow past certain points in time causing their house loan to increase over time effectively nullifying any gains they would have made in interest from the bank. This likely would be turned down as it ruins the idea of playing at your own pace, and people who do not play every day would suddenly see increased costs on what they thought they were paying down.
 
 ## Sources
 
