@@ -1,6 +1,6 @@
 ---
 title: Armchair Dev - Animal Crossing Economy Curosities
-description: This is an essay about the oddities that is the economy of the recently released Animal Crossing title for the Nintendo Switch. I had done a lighting talk on it as part of the lunch & learn education track at work and it has just gotten stranger since then.
+description: This is an essay about the oddities that is the economy of the recently released Animal Crossing title for the Nintendo Switch. I had done a lightning talk on it as part of the lunch & learn education track at work and it has just gotten stranger since then.
 date: 2020-05-10
 tags:
   - armchair-dev
