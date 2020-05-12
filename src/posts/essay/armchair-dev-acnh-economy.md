@@ -32,21 +32,29 @@ One of my favorite events in the game is the SOW Joan Stalk Market. It has been 
 ![Daisy Mae from Animal Crossing](/img/essay/armchair-dev-acnh-economy_stalnks.png)
 <sub>Image Source: [Know Your Meme - Stonks](https://knowyourmeme.com/photos/1809391-stonks)</sub>
 
-TODO
+Every Sunday, Daisy Mae (the pig in the picture above), arrives on your island between the hours of 5:00 and 12:00. Here she offers you a deal to buy bunches of turnips, not for consumption but purely for an attempt at making profit.
 
-More on how turnips have a system to combat time travel.
+After Sunday passes, the player can check the shop for a buy back price twice a day. The phenomenon here is players are now able to communicate their own island's price, effectively min-maxing their gains. It's stalk manipulation.
 
-Add tweet about market collapse when online servers went down on a saturday.
+This has become another point of contention where players will post their prices when significantly high, requiring tips or donations in order to gain access to the coveted high sale price.
+
+Players have been able to even leverage price calculators based around a [datamined information](https://twitter.com/_Ninji/status/1244818665851289602) from the game executable. The price trends are deterministic, but require some information to glean which route you may be on for the coming week.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nintendo&#39;s servers go down.<br><br>All other games: You can&#39;t play online for a bit.<br><br>Animal Crossing: Global economic collapse.</p>&mdash; NicoCW (@NicoCVV) <a href="https://twitter.com/NicoCVV/status/1259295542972223489?ref_src=twsrc%5Etfw">May 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+This is also one other entertaining aspect to the weekly sale requirement. Players have to sell before the following Sunday, lest all of their turnips spoil. This mechanism happens as long as the player has turnips past any Sunday, effectively preventing time travelling players from hopping around for an exceedingly good sale price.
 
 ## The Villager Market
 
-TODO
+Around the time of the announcement that Animal Crossing amiibo cards were elligible to be used to invite specific villagers to your island, the once idle market had suddenly begun booming. Certain villagers being more sought after than others to the point that the card value were in the tens of hundreds of dollars in USD. It should go as no surprise then that Nintendo seems to be counteracting this be reissuing new prints, at least in Japan, of the much sought after booster packs of amiibo cards<sup>[[3]](#nintendo-thwarts-scalpers)</sup>.
 
-Cover amiibo card market price spikes before and during game launch after info about selecting villagers was made known.
+Not only has the physical market had a jump, but there was the development of a market for trading villagers as mentioned earlier based on when they are moving out. Often times players are trading in terms of Nook Mile Tickets (NMT) which can almost be considered a stably backed currency since the generation required involves effort to produce a ticket, whereas something like Bells can be gained by selling tree branches, weeds, and fruit.
+
+The adoption of an alternative currency to Bells is something often adopted by the playerbase when the primary currency of the game has become hyperinflated to the point of being devalued.
 
 ## Economic Oddities
 
-Island economies are isolated from one another, but the value of the bell has inflated drastically. So much so we are seeing prices become outlandish compared to what they should be.
+Island economies are isolated from one another, but the value of the bell has inflated drastically. So much so we are seeing secondary market item prices become outlandish compared to what they should be.
 
 Case in point, a query on nookazon.com for a common item such as the Axe. The axe is a mainstay tool in the series, dating all the way back to the original release on Game Cube (or N64 if you are from Japan.) 
 
@@ -59,14 +67,32 @@ At the time of writing May 10, 2020, the price is now sitting at an average of 1
 
 ## Combating Hyperinflation
 
-TODO
+Nintendo has made strides to combat the inflation that is occurring by by imposing a change to the in game bank's interest rate, effectively capping the maximum yield. This specific change is due in part to countering players who can exploit the bank's interest system by time travelling several years into the future, effectively able to gain infinite interest and maxing out their account.
 
-Nintendo has imposed a change to the in game bank's interest rate, effectively capping it - preventing players from time travelling for maximum gain.
+While this doesn't obviously impact other players, it can be seen as cheapening the experience when players see others having spent the same amount of time as them somehow having much more advanced island developments.
 
-My proposal to discourage time travel would be to impose interest on the loans given out by Tom Nook for house repayments. A typical player will pay it back relatively quickly, whereas the time traveler could likely blow past certain points in time causing their house loan to increase over time effectively nullifying any gains they would have made in interest from the bank. This likely would be turned down as it ruins the idea of playing at your own pace, and people who do not play every day would suddenly see increased costs on what they thought they were paying down.
+Time travel is already a controversial subject within the game's community, but my proposal to discourage time travel and combat the already inflating currency would be to impose interest on the loans given out by Tom Nook for house repayments. 
+
+A typical player will pay it back relatively quickly, whereas the time traveler could likely blow past certain points in time causing their house loan to increase drastically over time effectively nullifying any gains they would have made in interest from the bank. This would likely never become a consideration as it can ruin the player experience, even though it would make the loans much more realistic.
+
+## What if?
+
+What if all island economies were tied together? That could lead to some interesting results where you could effectively have the value of a Bell fluctuate and change depending on how the market was behaving. More likely than not, you would end up with the market crashing as people figure out how to generate near infinite Bells - or you would have the problem of people never connecting online suddenly seeing their market tank as they are now being impacted by a system they had never taken part in.
+
+This could be tied to just turnips, and make the market much more dynamic based on player buy and sale rates more similar to the real world stock market. Once again this would likely yield turnips becoming devalued as people buy excess waiting for the ideal sale price.
+
+## Conclusion
+
+I have a lot of thoughts about how this game could be advanced to take advantage of the accidentally dynamic economy it has wrought, but at the same time I can see almost immediately how players can ruin it. 
+
+Unless there were more MMO like systems in place such as the auction house or more uses for the primary and secondary currencies, we will likely see the Bell ultimately devalued in the secondary player market.
+
+There is also alot of potential for the NMT market value to crash as well. Early in game, players are able to generate miles very quickly, but as time goes on those high value tasks will dwindle away until it is nothing left but the daily type tasks of chopping wood, catching critters, and hitting rocks. This would likely end up with the prices of villagers dropping significantly as no one will be able to afford it in addition to the fresh print runs of amiibo cards making those villager trade markets a moot point.
 
 ## Sources
 
 <a id="nintendo-fiscal-results">[1]</a> [Nintendo - Year End Financial Results March 2020](https://www.nintendo.co.jp/ir/pdf/2020/200507_4e.pdf)
 
 <a id="wikipedia-virtual-econ">[2]</a> [Virtual Economy - Wikipedia](https://en.wikipedia.org/wiki/Virtual_economy) 
+
+<a id="nintendo-thwarts-scalpers">[3]</a> [Nintendo Thwarts Scalpers with Animal Crossing Amiibo Card Restock - Nintendo Life](http://www.nintendolife.com/news/2020/05/nintendo_thwarts_scalpers_with_animal_crossing_amiibo_card_restock)
