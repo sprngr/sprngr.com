@@ -83,9 +83,9 @@ This could be tied to just turnips, and make the market much more dynamic based 
 
 ## Conclusion
 
-I have a lot of thoughts about how this game could be advanced to take advantage of the accidentally dynamic economy it has wrought, but at the same time I can see almost immediately how players can ruin it. 
+I have a lot of thoughts about how this game could be advanced to take advantage of the dynamic economy it has wrought, but at the same time I can see almost immediately how players will ruin it. 
 
-Unless there were more MMO like systems in place such as the auction house or more uses for the primary and secondary currencies, we will likely see the Bell ultimately devalued in the secondary player market.
+Unless there were more MMO like systems in place such as the auction house or more uses for the primary and secondary currencies, we will likely see the Bell ultimately devalued in the secondary player market. If there were more ways to remove Bells from the economy instead of having them cycle through it, then maybe there could be a way to have such a thing happen.
 
 There is also alot of potential for the NMT market value to crash as well. Early in game, players are able to generate miles very quickly, but as time goes on those high value tasks will dwindle away until it is nothing left but the daily type tasks of chopping wood, catching critters, and hitting rocks. This would likely end up with the prices of villagers dropping significantly as no one will be able to afford it in addition to the fresh print runs of amiibo cards making those villager trade markets a moot point.
 
