@@ -19,6 +19,12 @@ body {
   background-position: 0 0, center;
 }
 
+img {
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+}
+
 /* Layout */
 .kb-container {
   background: #fff;

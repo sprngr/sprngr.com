@@ -3,6 +3,7 @@ const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
+const pluginLocalRespimg = require('eleventy-plugin-local-respimg');
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 
@@ -10,6 +11,26 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
+
+  eleventyConfig.addPlugin(pluginLocalRespimg, {
+    folders: {
+      source: 'src',
+      output: 'dist',
+    },
+    images: {
+      resize: {
+        min: 250,
+        max: 1500,
+        step: 150,
+      },
+      gifToVideo: false,
+      sizes: '100vw',
+      lazy: true,
+      watch: {
+        src: 'img/**/*',
+      },
+    },
+  });
 
   eleventyConfig.setDataDeepMerge(true);
 
