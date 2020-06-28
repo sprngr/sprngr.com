@@ -5,6 +5,7 @@ eleventyNavigation:
   order: 1
 ---
 
+{% set contentCollection = collections.posts %}
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistHeader = "Posts" %}
 {% set postsPrimary = postslist.length - 1 %}
