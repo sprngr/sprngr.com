@@ -7,7 +7,7 @@ layout: post
 
 Ironically as soon as I began writing this, I immediately got up and began doing everything else on my mind - run the vacuum, move laundry to the dryer, clean dishes, etc. Why? I was not ready to focus. I had too many things going on at once, and even then the idea of writing this post was an impulsive action.
 
-I, like many others struggle with focus. It can be a blessing, but mostly a curse. I'm never bored, but at the same time I feel the burden of never completing projects or tasks at times depending on how involved they can be.
+I, like many others, struggle with focus. It can be a blessing, but mostly a curse. I'm never bored, but at the same time I feel the burden of never completing projects or tasks at times depending on how involved they can be.
 
 I feel like talking about this subject is like beating a dead horse, so I will try to keep this brief. I was recommended [Deep Work by Cal Newport](https://www.calnewport.com/books/deep-work/) from several coworkers, going so far as to having bi-weekly reading discussion sessions with my team lead about it. 
 
