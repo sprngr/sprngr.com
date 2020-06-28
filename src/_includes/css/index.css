@@ -25,6 +25,18 @@ img {
   text-align: center;
 }
 
+twitter-widget {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tag {
+  background: var(--black);
+  color: #fff;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
 /* Layout */
 .kb-container {
   background: #fff;
