@@ -3,6 +3,8 @@ title: Thoughts on Focus and Deep Work
 description: This is a post about my thoughts on deep work, my personal struggles with focus, and how I am working to overcome it so as to help others in a similar situation especially given the current circumstances of the world in 2020.
 date: 2020-06-28
 layout: post
+tags:
+    - blog
 ---
 
 Ironically as soon as I began writing this, I immediately got up and began doing everything else on my mind - run the vacuum, move laundry to the dryer, clean dishes, etc. Why? I was not ready to focus. I had too many things going on at once, and even then the idea of writing this post was an impulsive action.
