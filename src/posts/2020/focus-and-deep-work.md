@@ -23,7 +23,7 @@ I have a very bad habit of letting my thoughts run rampant, pulling me into rabb
 
 This is something I have been combating for years, sometimes I am amazed I was able to graduate college or keep a job.
 
-Often times, I would find myself able to engage in deep work only after procrastinating for an endless amount of house and engaging in everyone's favorite pasttime - crunch.
+Often times, I would find myself able to engage in deep work only after procrastinating for an endless amount of hours and engaging in everyone's favorite pasttime - crunch.
 
 ## How I Focus
 
