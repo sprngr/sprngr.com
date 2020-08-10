@@ -2,9 +2,10 @@
 title: Armchair Dev - Animal Crossing Economy Curosities
 description: This is an essay about the oddities that is the economy of the recently released Animal Crossing title for the Nintendo Switch. I had done a lightning talk on it as part of the lunch & learn education track at work and it has just gotten stranger since then.
 date: 2020-05-10
+layout: post
 tags:
   - armchair-dev
-layout: post
+  - essay
 ---
 
 Animal Crossing: New Horizons is a life simulation title that released internationally for the Nintendo Switch on March 20, 2020. It couldn't have come at a better time due to the world being in a global pandemic and stay-at-home orders were put in place. At the time of writing the best selling Animal Crossing title in its series and is the fastest selling on the Nintendo Switch<sup>[[1]](#nintendo-fiscal-results)</sup>.

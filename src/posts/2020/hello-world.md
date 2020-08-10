@@ -3,6 +3,8 @@ title: Hello World, It's Me Again
 description: This is a the first post in a series of posts about getting started all over again, oh and it's open source now. It may not be the prettiest website, but it sure is readable.
 date: 2020-04-09
 layout: post
+tags:
+  - blog
 ---
 
 I feel like I write one of these posts every so many years, but never commit past it.
