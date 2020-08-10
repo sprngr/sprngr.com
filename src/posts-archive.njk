@@ -7,7 +7,8 @@ eleventyNavigation:
   order: 2
 ---
 
-{% set postslist = collections.posts %}
-{% set postsPrimary = postslist.length - 1 %}
-{% set postslistHeader = "Posts Archive" %}
-{% include "postslist.njk" %}
+{% set entryCollection = collections.posts %}
+{% set entrylist = entryCollection %}
+{% set entrylistHeader = "Posts Archive" %}
+{% set entryPrimary = entrylist.length - 1 %}
+{% include "entrylist.njk" %}
