@@ -57,6 +57,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
 
   eleventyConfig.addPassthroughCopy("./src/img");
+  eleventyConfig.addPassthroughCopy("./src/links");
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
@@ -91,8 +92,7 @@ module.exports = function(eleventyConfig) {
     templateFormats: [
       "md",
       "njk",
-      "html",
-      "liquid"
+      "liquid",
     ],
 
     // If your site lives in a different subdirectory, change this.
