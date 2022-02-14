@@ -7,7 +7,7 @@ eleventyNavigation:
 ---
 
 {% set entryCollection = collections.projects %}
-{% set entrylist = entryCollection | head(-3) %}
+{% set entrylist = entryCollection | head(-4) %}
 {% set entrylistHeader = "Projects" %}
 {% set entryPrimary = entrylist.length - 1 %}
 {% include "entrylist.njk" %}
@@ -15,9 +15,9 @@ eleventyNavigation:
 <p>More projects can be found in <a href="{{ '/projects/' | url }}">here</a>.</p>
 
 {% set entryCollection = collections.posts %}
-{% set entrylist = entryCollection | head(-3) %}
+{% set entrylist = entryCollection | head(-4) %}
 {% set entrylistHeader = "Posts" %}
-{% set entryPrimary = entrylist.length - 1 %}
+{% set entryPrimary = entrylist.length %}
 {% include "entrylist.njk" %}
 
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">here</a>.</p>
