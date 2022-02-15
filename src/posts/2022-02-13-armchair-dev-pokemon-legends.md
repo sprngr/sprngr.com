@@ -64,7 +64,7 @@ Trading is no longer a requirement. Any evolution that required a trade now just
 
 Hold items and abilities are nonexistent. This simplified a lot of planning around fights, and many Pokemon are now vulnerable in ways they hadn't been prior - like levitating no longer being an immunity to ground attacks.
 
-Status effects, as mentioned above, are only present in fights. Sleep effects are just drowsiness, like confusion without damage & frozen has been replaced with a burn equivalent.
+Status effects, as mentioned above, are only present in fights. Sleep effects are just drowsiness, like confusion without damage & Frozen has been replaced with a burn equivalent.
 
 Breeding is not present. So, no ease of acquiring early stage Pokemon.
 
