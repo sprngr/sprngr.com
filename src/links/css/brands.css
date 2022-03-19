@@ -326,6 +326,14 @@ button:hover,
 .button.button-itch:focus {
   filter: brightness(90%) }
 
+/* Hangar V */
+.button.button-hangarv {
+  color: #FFFFFF;
+  background-color: #4db2e5 }
+.button.button-hangarv:hover,
+.button.button-hangarv:focus {
+  filter: brightness(90%) }
+
 /* Gunpla Gallery */
 .button.button-gunplagallery {
   color: #FFFFFF;
