@@ -6,18 +6,20 @@ eleventyNavigation:
   order: 1
 ---
 
-{% set entryCollection = collections.projects %}
-{% set entrylist = entryCollection | head(-4) %}
-{% set entrylistHeader = "Projects" %}
-{% set entryPrimary = entrylist.length - 1 %}
-{% include "entrylist.njk" %}
-
-<p>More projects can be found in <a href="{{ '/projects/' | url }}">here</a>.</p>
+{% include "snippets/about.njk" %}
 
 {% set entryCollection = collections.posts %}
 {% set entrylist = entryCollection | head(-4) %}
 {% set entrylistHeader = "Posts" %}
 {% set entryPrimary = entrylist.length %}
-{% include "entrylist.njk" %}
+{% include "snippets/entrylist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">here</a>.</p>
+<p class="kb-more"><a href="{{ '/posts/' | url }}">More shower thoughts this way</a></p>
+
+{% set entryCollection = collections.projects %}
+{% set entrylist = entryCollection | head(-4) %}
+{% set entrylistHeader = "Projects" %}
+{% set entryPrimary = entrylist.length - 1 %}
+{% include "snippets/entrylist.njk" %}
+
+<p class="kb-more"><a href="{{ '/projects/' | url }}">Check out even more of my selected works</a></p>

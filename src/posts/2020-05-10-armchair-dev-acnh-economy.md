@@ -5,6 +5,7 @@ date: 2020-05-10
 layout: post
 tags:
   - armchair-dev
+  - gaming
   - essay
 ---
 

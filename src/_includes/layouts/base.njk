@@ -4,9 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ renderData.title or title or metadata.title }} | Michael Springer</title>
-    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
-    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+    <meta name="description" content="{{ renderData.description or description or metadata.description }}">
+    <meta name="keywords" content="{{ renderData.keywords or keywords or metadata.keywords }}">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0bbdfc">
+    <link rel="shortcut icon" href="/img/assets/favicon.png">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    {% set css %}
+      {% include "css/style.njk" %}
+    {% endset %}
+    <style type="text/css">
+      {{ css | cssmin | safe }}
+    </style>
   </head>
   <body>
     <div class="kb-container">
@@ -17,8 +26,7 @@
       </nav>
       <header class="kb-header">
         <div class="kb-header-wrapper">
-          <h1 class="kb-header-heading-title">{{ metadata.title }}</h1>
-          <h2 class="kb-header-heading-subtitle">This is a subtitle</h2>
+          {% include "snippets/logo.njk" %}
         </div>
       </header>
       <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
@@ -26,12 +34,9 @@
     </main>
     </div>
     <footer class="kb-footer">
-    <nav class="kb-nav">
-      <a href="https://twitter.com/sprngr_">Twitter</a>
-      <a href="https://twitch.tv/sprngr_">Twitch</a>
-      <a href="https://github.com/sprngr">Github</a>
-      <a href="https://sprngr.itch.io">Itch</a>
-    </nav>
+      <nav class="kb-nav">
+        <a href="https://sprngr.com/links">Hyperlinks for the rest of the web</a>
+      </nav>
     </footer>
 
     <!-- Current page: {{ page.url | url }} -->

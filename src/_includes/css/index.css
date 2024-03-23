@@ -1,7 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  src: url('/css/fonts/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url('/css/fonts/LeagueSpartan-SemiBold.woff2') format('woff2');
+}
 
 :root {
-  --black: #1C1D1E;
+  --black: #1c1d1e;
+  --white: #ffffff;
+  --accent: #3B719F;
 }
 
 * {
@@ -10,12 +20,12 @@
 
 body {
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
   counter-reset: kb-section;
-  background: #f9f9f9;
-  background-image: linear-gradient(rgba(43, 43, 38, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(43, 43, 38, 0.05) 1px, transparent 1px);
-	background-size: 10px 10px, 10px 10px, 2px 2px, 2px 2px;
+  background: var(--accent);
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.45) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.45) 1px, transparent 1px);
+	background-size: 10px 10px, 10px 10px, 2px 2px, 2px 2px; */
   background-position: 0 0, center;
 }
 
@@ -37,16 +47,40 @@ twitter-widget {
   margin-right: auto;
 }
 
+a {
+  color: var(--accent);
+  text-decoration-color: var(--black);
+}
+
 .tag {
   background: var(--black);
-  color: #fff;
+  color: var(--white);
   padding: 0.5em;
   text-decoration: none;
 }
 
+.tag:hover {
+  background-color: var(--accent);
+}
+
+.kb-more > a, .kb-more > a:visited {
+  background: var(--black);
+  color: var(--white);
+  padding: 0.5em;
+  text-transform: uppercase;
+  color: var(--white);
+  display: inline-flex;
+  text-decoration: none;
+  width: 100%;
+}
+
+.kb-more > a:hover {
+  background-color: var(--accent);
+}
+
 /* Layout */
 .kb-container {
-  background: #fff;
+  background: var(--white);
   margin: 0 auto;
   padding: 1rem;
   min-height: 100vh;
@@ -67,9 +101,10 @@ twitter-widget {
 
 .kb-nav {
   padding: 1rem;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'League Spartan', sans-serif;
+  letter-spacing: 0.05em;
   background: var(--black);
-  color: #fff;
+  color: var(--white);
   display:flex;
   text-align: center;
   flex-direction: row;
@@ -85,14 +120,14 @@ twitter-widget {
   text-transform:uppercase;
 }
 
-.kb-nav a:hover {
+.kb-nav a:hover, .kb-nav-item-active {
   color: white;
-  border: 1px solid #fff;
+  border: 1px solid var(--white);
 }
 
 /* Kitbash Header */
 .kb-header {
-  background: #fff;
+  background: var(--white);
   color: var(--black);
   padding: 3rem 0;
   text-align: center;
@@ -118,12 +153,23 @@ twitter-widget {
   text-transform: capitalize;
 }
 
+.kb-header #logo-bg {
+  fill: var(--black);
+}
+
+.kb-header #logo-bg:hover {
+  fill: var(--accent);
+}
+
 /* Kitbash Section */
 
 .kb-section .kb-section-header {
+  font-family: 'League Spartan', sans-serif;
+  font-variation-settings: "wght" 600;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   background: var(--black);
-  color: #fff;
+  color: var(--white);
   margin: 0;
   padding: 0.5em;
 }
@@ -137,7 +183,7 @@ twitter-widget {
 
 .kb-section-entry::before {
   padding: 0.25em 0.5em;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
   font-size: 1.5em;
   counter-increment: kb-section;
   content: counter(kb-section);
@@ -145,12 +191,13 @@ twitter-widget {
   display: inline-block;
 
   background: var(--black);
-  color: #fff;
+  color: var(--white);
 }
 
 .kb-section-entry {
   flex-grow: 1;
   flex-shrink: 0;
+  width: 100%;
 }
 
 .kb-section-entry p {
@@ -170,10 +217,37 @@ twitter-widget {
   flex: initial;
 }
 
+/** Hero section overrides */
+.kb-section.hero .kb-section-entry {
+  flex: auto;
+  border-top: 0;
+  width: auto;
+}
+
+.kb-section.hero .kb-section-entry.figure::before {
+    padding: 0;
+    content: '';
+    counter-increment: none;
+}
+
+.kb-section.hero .kb-section-entry.figure svg {
+  width: 20em;
+  padding: 1em;
+  border-radius: 25px;
+}
+
+.kb-me #me-bg {
+  fill: var(--accent);
+}
+
 .kb-section-entry-title {
+  font-family: 'League Spartan', sans-serif;
   line-height: 1.5em;
   margin-top: 0;
   padding: 0 0.75em;
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-color: var(--black);
 }
 
 /* Media Queries */
@@ -182,6 +256,10 @@ twitter-widget {
 @media (min-width: 20rem) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   .kb-section-entry {
     flex: initial;
+  }
+
+  .kb-more {
+    width: 100%;
   }
 }
 
@@ -196,10 +274,18 @@ twitter-widget {
   .kb-section-entry {
     flex-basis: 50%;
   }
+
+  .kb-more {
+    width: 50%;
+  }
 }
 
 @media (min-width: 80rem) { /* hi-res laptops and desktops */
   .kb-section-entry {
     flex-basis: 33.3333%;
+  }
+
+  .kb-more {
+    width: 33.3333%;
   }
 }

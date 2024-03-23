@@ -5,6 +5,7 @@ date: 2022-02-13
 layout: post
 tags:
   - armchair-dev
+  - gaming
   - essay
 ---
 

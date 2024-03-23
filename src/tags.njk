@@ -18,6 +18,6 @@ permalink: /tags/{{ tag }}/
 <h1>Tagged “{{ tag }}”</h1>
 
 {% set entryCollection = collections[ tag ] %}
-{% include "entrylist.njk" %}
+{% include "snippets/entrylist.njk" %}
 
 <p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>
