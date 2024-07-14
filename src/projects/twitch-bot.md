@@ -5,6 +5,7 @@ date: 2023-02-01
 layout: post
 tags:
     - chatbot
+    - Javascript
 ---
 
 I had been contacted to build a chatbot for a 24/7 livestream.

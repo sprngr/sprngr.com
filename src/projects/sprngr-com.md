@@ -5,6 +5,8 @@ date: 2019-06-27
 layout: post
 tags:
     - website
+    - Javascript
+    - Eleventy
 ---
 
 I started this in 2019 as a sort of fresh reset. Most of that story is outlined in this [first blog post](https://sprngr.com/posts/2020-04-09-hello-world/).
