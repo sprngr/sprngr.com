@@ -175,12 +175,6 @@ button:hover,
     background-color: #d7dfe2;
 }
 
-/* Skoob */
-.button.button-skoob {
-    color: #ffffff;
-    background-color: #3189c8;
-}
-
 /* Snapchat */
 .button.button-snapchat {
     color: #000000;
@@ -300,3 +294,10 @@ button:hover,
     color: #ffffff;
     background-color: #4cb748;
 }
+
+/* Patreon */
+.button.button-patreon {
+    color: #ffffff;
+    background-color: #052d49;
+}
+
