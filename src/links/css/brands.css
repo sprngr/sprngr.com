@@ -301,3 +301,10 @@ button:hover,
     background-color: #052d49;
 }
 
+/* Bluesky */
+.button.button-bluesky {
+    color: #ffffff;
+    background-color: #1185fe;
+}
+
+
