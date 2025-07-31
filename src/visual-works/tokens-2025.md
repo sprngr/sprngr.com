@@ -7,6 +7,8 @@ tags:
     - token
 ---
 
+The following is a collection of fan art game tokens I have produced during 2025.
+
 ![](/img/visual-works/tokens-2025/poke_food.png)
 ![](/img/visual-works/tokens-2025/speed_tracker.png)
 ![](/img/visual-works/tokens-2025/joker.png)

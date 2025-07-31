@@ -8,4 +8,5 @@ tags:
     - token
 ---
 
+The goal was to invoke a gambling themed dungeon for the Magic Con event in Las Vegas. Inspiration was taken from craps and roulette tables, using chips to anchor the theme and count out each level of the dungeon. To make it complete, we had gone as far as printing it on casino paper.
 ![](/img/visual-works/mc-vegas-2024-sanctuary/dungeon.png)
