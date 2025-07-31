@@ -5,8 +5,8 @@ date: 2019-04-01
 layout: post
 tags:
     - plugin
-    - open-source
-    - Lua
+    - open source
+    - lua
 ---
 
 This project started out of a desire to see if I could build a way to leverage APIs within [Aseprite](https://www.aseprite.org/) to support creation of timelapses without the need for a secondary application like a screen recorder. At the time I had taken up an interest in creating pixel art and loved seeing artists share the in-progress animations of the work being created, a wonderful reminder of the effort that goes into these works.

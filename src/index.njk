@@ -8,18 +8,20 @@ eleventyNavigation:
 
 {% include "snippets/about.njk" %}
 
-{% set entryCollection = collections.posts %}
-{% set entrylist = entryCollection | head(-4) %}
-{% set entrylistHeader = "Posts" %}
-{% set entryPrimary = entrylist.length %}
+{% set collectionTag = "visual-works" %}
+{% set entryCollection = collections[collectionTag] %}
+{% set entrylist = entryCollection | head(-7) %}
+{% set entrylistHeader = "Visual Works" %}
+
 {% include "snippets/entrylist.njk" %}
 
-<p class="kb-more"><a href="{{ '/posts/' | url }}">More shower thoughts this way</a></p>
+<p class="kb-more"><a href="{{ '/'+collectionTag+'/' | url }}">Even more pixels & vectors this way↗</a></p>
 
-{% set entryCollection = collections.projects %}
+{% set collectionTag = "projects" %}
+{% set entryCollection = collections[collectionTag] %}
 {% set entrylist = entryCollection | head(-4) %}
 {% set entrylistHeader = "Projects" %}
-{% set entryPrimary = entrylist.length - 1 %}
+
 {% include "snippets/entrylist.njk" %}
 
-<p class="kb-more"><a href="{{ '/projects/' | url }}">Check out even more of my selected works</a></p>
+<p class="kb-more"><a href="{{ '/'+collectionTag+'/' | url }}">Check out even more of my selected projects↗</a></p>

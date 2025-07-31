@@ -6,8 +6,6 @@ pagination:
   filter:
     - all
     - nav
-    - post
-    - posts
     - tagList
   addAllPagesToCollections: true
 layout: layouts/home.njk
@@ -17,7 +15,11 @@ permalink: /tags/{{ tag }}/
 ---
 <h1>Tagged “{{ tag }}”</h1>
 
-{% set entryCollection = collections[ tag ] %}
+{% set collectionTag = tag %}
+{% set entryCollection = collections[collectionTag] %}
+{% set entrylist = entryCollection | head(-4) %}
+{% set entrylistHeader = tag %}
+{% set entryPrimary = entrylist.length %}
 {% include "snippets/entrylist.njk" %}
 
 <p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>

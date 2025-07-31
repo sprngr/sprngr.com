@@ -1,9 +1,9 @@
 {
   "title": "sprngr",
   "url": "https://sprngr.com/",
-  "description": "Michael Springer - Maker",
+  "description": "Michael Springer - I Make Stuff",
   "feed": {
-    "subtitle": "Michael Springer - Maker",
+    "subtitle": "Michael Springer - I Make Stuff",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "url": "https://sprngr.com/feed/feed.xml",

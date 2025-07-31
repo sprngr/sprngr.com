@@ -1,14 +1,14 @@
 ---
 layout: layouts/home.njk
-permalink: /projects/
-title: Projects
+permalink: /visual-works/
+title: Visual Works
 eleventyNavigation:
-  key: Projects
-  order: 3
+  key: Visual Works
+  order: 2
 ---
 
-{% set entryCollection = collections.projects %}
+{% set entryCollection = collections["visual-works"] %}
 {% set entrylist = entryCollection %}
-{% set entrylistHeader = "Projects" %}
+{% set entrylistHeader = "Visual Works" %}
 {% set entryPrimary = entrylist.length - 1 %}
 {% include "snippets/entrylist.njk" %}

@@ -238,6 +238,10 @@ a {
   border-radius: 25px;
 }
 
+.kb-me {
+  text-align: center;
+}
+
 .kb-me #me-bg {
   fill: var(--accent);
 }
@@ -250,6 +254,11 @@ a {
   color: var(--accent);
   text-decoration: underline;
   text-decoration-color: var(--black);
+}
+
+.kb-section-entry-thumbnail img {
+  text-align: center;
+  width: 90%;
 }
 
 /* Media Queries */
@@ -277,6 +286,10 @@ a {
     flex-basis: 50%;
   }
 
+  .kb-section-entry.primary .kb-section-entry-thumbnail img {
+    width: 50%;
+  }
+
   .kb-more {
     width: 50%;
   }
@@ -285,6 +298,10 @@ a {
 @media (min-width: 80rem) { /* hi-res laptops and desktops */
   .kb-section-entry {
     flex-basis: 33.3333%;
+  }
+
+  .kb-section-entry.primary .kb-section-entry-thumbnail img {
+    width: 50%;
   }
 
   .kb-more {

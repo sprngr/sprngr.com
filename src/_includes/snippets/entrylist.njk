@@ -1,14 +1,23 @@
   <section class="kb-section">
     <h1 class="kb-section-header">{{entrylistHeader}}</h1>
     <div class="kb-section-entry-container">
+    {% set entryPrimary = true %}
     {% for entry in entrylist | reverse %}
-      <div class="kb-section-entry{% if entryCollection.indexOf(entry) == entryPrimary %} primary{% endif %}">
-        <a href="{{ entry.url | url }}"><h2 class="kb-section-entry-title"><span>{% if entry.data.title %}{{ entry.data.title }}{% else %}<code>{{ entry.url }}</code>{% endif %}</span></h2></a>
+      <div class="kb-section-entry{% if entryPrimary %} primary{% set entryPrimary = false %}{% endif %}">
+        <a href="{% if entry.data.url %}{{ entry.data.url }}{% else %}{{ entry.url | url }}{% endif %}"><h2 class="kb-section-entry-title">{{ entry.data.title }}</h2></a>
           <p><time class="postlist-date" datetime="{{ entry.date | htmlDateString }}">{{ entry.date | readableDate }}</time></p>
+          {% if entry.data.title and entry.data.url %}<p><a href="{{ entry.data.url }}"><code>{{ entry.data.url }}</code></a>↗</p>{% endif %}
+          {% if entry.data.thumbnail %}
+          <p class="kb-section-entry-thumbnail">
+            <a href="{% if entry.data.url %}{{ entry.data.url }}{% else %}{{ entry.url | url }}{% endif %}">
+              <img src="{{ entry.data.thumbnail }}"/>
+            </a>
+          </p>
+          {% endif %}
           <p>{{ entry.data.description }}</p>
           <p>
           {% for tag in entry.data.tags %}
-            {%- if collections.tagList.indexOf(tag) != -1 -%}
+            {%- if collections.tagList.indexOf(tag) > 0 and tag != collectionTag -%}
             {% set tagUrl %}/tags/{{ tag }}/{% endset %}
             <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
             {%- endif -%}
