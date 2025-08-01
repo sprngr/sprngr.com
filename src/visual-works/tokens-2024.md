@@ -3,6 +3,7 @@ title: 2024 Token Designs
 description: A collection of Magic tokens designed for limited print run & giveaways.
 date: 2024-07-01
 layout: post
+thumbnail: /img/visual-works/tokens-2024/thumbnail.png
 tags:
     - token
 ---

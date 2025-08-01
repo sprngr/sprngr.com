@@ -3,6 +3,7 @@ title: 2025 Token Designs
 description: A collection of Magic tokens designed for limited print run & giveaways.
 date: 2025-01-01
 layout: post
+thumbnail: /img/visual-works/tokens-2025/thumbnail.png
 tags:
     - token
 ---
