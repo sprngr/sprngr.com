@@ -37,3 +37,8 @@ July's saproling tokens, NFT style. Blockchain is some sort of cube format, righ
 Inspired by the cover for the Dutch translation of The Hobbit - amassing goblins for August.
 
 ![](/img/visual-works/tokens-2026/goblin_army.png)
+
+## Gummi Wurmcoil Engine
+Keeping with my candy inspired theme for October, I acted upon an idea rolling around in my head for years with one of my favorite cards - Wurmcoil Engine. I keep the promo I got from Scars of Mirrodin in my EDH deck despite it not completely working with the rest of the theme.
+
+![](/img/visual-works/tokens-2026/gummi-wurms.png)
